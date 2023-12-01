@@ -29,7 +29,6 @@ classifiers = [
     'Programming Language :: Python :: 3.12',
 ]
 dependencies = [
-    # "rdmo>=2.1",
     "requests-toolbelt~=1.0",
     "requests>=2.31",
 ]
