@@ -1,4 +1,4 @@
-rdmo-openproject
+rdmo-plugins-openproject
 ================
 
 This plugin implements an [issue provider](https://rdmo.readthedocs.io/en/latest/plugins/index.html#issue-providers) for RDMO, which lets users push their tasks from RDMO to OpenProject work packages. The plugin uses [OAUTH 2.0](https://oauth.net/2/), so that users use their respective accounts in both systems.
@@ -10,7 +10,7 @@ Setup
 Install the plugin in your RDMO virtual environment using pip (directly from GitHub):
 
 ```bash
-pip install git+https://github.com/rdmorganiser/rdmo-openproject
+pip install git+https://github.com/rdmorganiser/rdmo-plugins-openproject
 ```
 
 Add the plugin to `PROJECT_ISSUE_PROVIDERS` in `config/settings/local.py`:

@@ -3,7 +3,7 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rdmo-openproject"
+name = "rdmo-plugins-openproject"
 authors = [
     {name = "RDMO Arbeitsgemeinschaft", email = "rdmo-team@listserv.dfn.de"},
 ]
@@ -33,6 +33,9 @@ dependencies = [
     "requests>=2.31",
 ]
 dynamic = ["version"]
+
+[project.urls]
+repository = "https://github.com/rdmorganiser/rdmo-plugins-openproject"
 
 [tool.setuptools]
 packages = ["rdmo_openproject"]
